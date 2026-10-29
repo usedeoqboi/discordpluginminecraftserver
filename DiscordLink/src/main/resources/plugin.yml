@@ -1,5 +1,5 @@
 name: DiscordLink
-version: '${version}'
+version: '1.0.0'
 main: dev.discordlink.DiscordLinkPlugin
 api-version: '26.2'
 description: Adds a /discord command that shows a clickable Discord invite link.
