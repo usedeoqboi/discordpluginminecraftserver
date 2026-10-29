@@ -1,0 +1,24 @@
+# ---------------------------------------------------------
+#  DiscordLink config
+# ---------------------------------------------------------
+
+# Your Discord invite link. Type it with or without https://
+# Examples:
+#   discord.gg/abcd1234
+#   https://discord.gg/abcd1234
+discord-link: "discord.gg/yourinvite"
+
+# Messages use MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+# <link> is replaced by the clickable Discord link.
+messages:
+  # Sent when a player runs /discord
+  discord: "<gray>Join our Discord: <link>"
+  # How the link itself looks (the text is the link you set above)
+  link-format: "<aqua><underlined>"
+  # Shown when a player hovers over the link
+  hover: "<yellow>Click to open our Discord!"
+  # Shown to admins when the link is not set
+  not-set: "<red>The Discord link has not been set yet. An admin needs to edit config.yml."
+  # Shown after /discord reload
+  reloaded: "<green>DiscordLink config reloaded."
+  no-permission: "<red>You don't have permission to do that."

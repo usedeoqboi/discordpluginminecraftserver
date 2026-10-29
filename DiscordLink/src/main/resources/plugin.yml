@@ -1,0 +1,19 @@
+name: DiscordLink
+version: '${version}'
+main: dev.discordlink.DiscordLinkPlugin
+api-version: '26.2'
+description: Adds a /discord command that shows a clickable Discord invite link.
+
+commands:
+  discord:
+    description: Shows the server's Discord invite link
+    usage: /discord
+    permission: discordlink.use
+
+permissions:
+  discordlink.use:
+    description: Allows using /discord
+    default: true
+  discordlink.reload:
+    description: Allows using /discord reload
+    default: op
